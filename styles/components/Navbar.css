@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navclass {
+    @apply font-sans flex sm:flex-row sm:text-left sm:justify-between py-2 px-6 bg-white shadow sm:items-baseline w-full;
+}
+
+.navclass img {
+    @apply: mx-auto;
+}
+.navclass a {
+    @apply text-lg text-gray-800 hover:text-blue-700 ml-2;
+}
+
+.navclass div {
+    @apply mb-2 sm:mb-2 flex flex-row  items-center mt-1;
+}

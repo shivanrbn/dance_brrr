@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    background-color: rgb(17, 20, 18);
+}
+
+.error404container{
+    @apply flex h-screen 
+}
+
+.error404col {
+    @apply flex-col m-auto opacity-40 bg-green-500 text-white;
+    color: white;
+}
